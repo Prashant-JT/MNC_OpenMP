@@ -24,8 +24,8 @@ plot(thread8);
 plot(thread9);
 plot(thread10);
 plot(thread11);
-title("Tiempo empleado según el número de procesos");
-xlabel("Número de hilos");
+title("Tiempo empleado segÃºn el nÃºmero de procesos");
+xlabel("NÃºmero de hilos");
 ylabel("Tiempo (segundos)");
 legend('2 hilos','3 hilos', '4 hilos', '5 hilos', '6 hilos', '7 hilos', '8 hilos', '9 hilos', '10 hilos', '11 hilos', 'Location', 'northwest');
 hold off
