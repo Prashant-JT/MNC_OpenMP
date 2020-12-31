@@ -11,7 +11,8 @@ iter1000000 = [0.0005936, 5.8e-06, 5e-06, 6.59e-05, 0.0001947, 0.002246, 0.02163
 iter10000000 = [0.0003739, 7.4e-06, 5.8e-06, 3.44e-05, 0.0002023, 0.0021484, 0.0232137, 0.210441];
 iter100000000 = [0.0004526, 1.07e-05, 1.08e-05, 2.6e-05, 0.0003525, 0.0022729, 0.0236772, 0.240586];
 
-subplot(4,2,1);
+figure(1);
+subplot(4,1,1);
 plot(iter10, (1:8));
 hold on
 title("Tiempo empleado para 10 conjunto de iteraciones");
@@ -22,7 +23,7 @@ yticklabels(tam);
 grid on;
 hold off
 
-subplot(4,2,2);
+subplot(4,1,2);
 plot(iter100, (1:8));
 hold on
 title("Tiempo empleado para 100 conjunto de iteraciones");
@@ -33,7 +34,7 @@ yticklabels(tam);
 grid on;
 hold off
 
-subplot(4,2,3);
+subplot(4,1,3);
 plot(iter1000, (1:8));
 hold on
 title("Tiempo empleado para 1000 conjunto de iteraciones");
@@ -44,7 +45,7 @@ yticklabels(tam);
 grid on;
 hold off
 
-subplot(4,2,4);
+subplot(4,1,4);
 plot(iter10000, (1:8));
 hold on
 title("Tiempo empleado para 10000 conjunto de iteraciones");
@@ -55,7 +56,8 @@ yticklabels(tam);
 grid on;
 hold off
 
-subplot(4,2,5);
+figure(2);
+subplot(4,1,1);
 plot(iter100000, (1:8));
 hold on
 title("Tiempo empleado para 100000 conjunto de iteraciones");
@@ -66,7 +68,7 @@ yticklabels(tam);
 grid on;
 hold off
 
-subplot(4,2,6);
+subplot(4,1,2);
 plot(iter1000000, (1:8));
 hold on
 title("Tiempo empleado para 1000000 conjunto de iteraciones");
@@ -77,7 +79,7 @@ yticklabels(tam);
 grid on;
 hold off
 
-subplot(4,2,7);
+subplot(4,1,3);
 plot(iter10000000, (1:8));
 hold on
 title("Tiempo empleado para 10000000 conjunto de iteraciones");
@@ -88,7 +90,7 @@ yticklabels(tam);
 grid on;
 hold off
 
-subplot(4,2,8);
+subplot(4,1,4);
 plot(iter100000000, (1:8));
 hold on
 title("Tiempo empleado para 100000000 conjunto de iteraciones");
